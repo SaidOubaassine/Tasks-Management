@@ -5,7 +5,7 @@ services:
     container_name: postgres_db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 13061999
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: tasks
     volumes:
       - postgres_data:/var/lib/postgresql/data
