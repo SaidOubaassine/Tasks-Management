@@ -24,7 +24,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/tasks
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: 13061999
+      SPRING_DATASOURCE_PASSWORD: password
     ports:
       - "8080:8080"
     networks:
